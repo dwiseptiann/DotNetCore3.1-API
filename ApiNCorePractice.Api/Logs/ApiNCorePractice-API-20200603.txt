@@ -1,0 +1,1016 @@
+===> 2020-06-03 15:41:14.661 +08:00 [Information] Starting web host
+===> 2020-06-03 15:41:15.267 +08:00 [Information] User profile is available. Using '"C:\Users\fpt\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-06-03 15:41:15.412 +08:00 [Debug] Repository contains no viable default key. Caller should generate a key with immediate activation.
+===> 2020-06-03 15:41:15.414 +08:00 [Debug] Policy resolution states that a new key should be added to the key ring.
+===> 2020-06-03 15:41:15.426 +08:00 [Information] Creating key {8908e446-2b99-4a24-86b5-b79c63f31d9d} with creation date 2020-06-03 07:41:15Z, activation date 2020-06-03 07:41:15Z, and expiration date 2020-09-01 07:41:15Z.
+===> 2020-06-03 15:41:15.492 +08:00 [Debug] Descriptor deserializer type for key {8908e446-2b99-4a24-86b5-b79c63f31d9d} is '"Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60"'.
+===> 2020-06-03 15:41:15.501 +08:00 [Debug] No key escrow sink found. Not writing key {8908e446-2b99-4a24-86b5-b79c63f31d9d} to escrow.
+===> 2020-06-03 15:41:15.598 +08:00 [Debug] Encrypting to Windows DPAPI for current user account ("LAPTOP-VOAI1NU1\fpt").
+===> 2020-06-03 15:41:15.630 +08:00 [Information] Writing data to file '"C:\Users\fpt\AppData\Local\ASP.NET\DataProtection-Keys\key-8908e446-2b99-4a24-86b5-b79c63f31d9d.xml"'.
+===> 2020-06-03 15:41:15.636 +08:00 [Debug] Key cache expiration token triggered by '"CreateNewKey"' operation.
+===> 2020-06-03 15:41:15.640 +08:00 [Debug] Reading data from file '"C:\Users\fpt\AppData\Local\ASP.NET\DataProtection-Keys\key-8908e446-2b99-4a24-86b5-b79c63f31d9d.xml"'.
+===> 2020-06-03 15:41:15.706 +08:00 [Debug] Found key {8908e446-2b99-4a24-86b5-b79c63f31d9d}.
+===> 2020-06-03 15:41:15.715 +08:00 [Debug] Considering key {8908e446-2b99-4a24-86b5-b79c63f31d9d} with expiration date 2020-09-01 07:41:15Z as default key.
+===> 2020-06-03 15:41:15.849 +08:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-06-03 15:41:15.853 +08:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-06-03 15:41:15.856 +08:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-06-03 15:41:15.866 +08:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-06-03 15:41:15.872 +08:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-06-03 15:41:15.879 +08:00 [Debug] Using key {8908e446-2b99-4a24-86b5-b79c63f31d9d} as the default key.
+===> 2020-06-03 15:41:15.881 +08:00 [Debug] Key ring with default key {8908e446-2b99-4a24-86b5-b79c63f31d9d} was loaded during application startup.
+===> 2020-06-03 15:41:16.152 +08:00 [Information] Startup::Configure
+===> 2020-06-03 15:41:16.632 +08:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-06-03 15:41:16.715 +08:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-06-03 15:41:17.152 +08:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-06-03 15:41:17.298 +08:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-06-03 15:41:18.551 +08:00 [Information] Entity Framework Core "3.1.0" initialized '"ApiNCorePracticeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-06-03 15:41:19.115 +08:00 [Debug] Opening connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.691 +08:00 [Debug] Opened connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.700 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 15:41:20.722 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (12ms).
+===> 2020-06-03 15:41:20.738 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 15:41:20.780 +08:00 [Information] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 15:41:20.788 +08:00 [Debug] Closing connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.797 +08:00 [Debug] Closed connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.805 +08:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-06-03 15:41:20.807 +08:00 [Debug] Created DbCommand for '"ExecuteScalar"' (2ms).
+===> 2020-06-03 15:41:20.810 +08:00 [Debug] Opening connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.814 +08:00 [Debug] Opened connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.816 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-06-03 15:41:20.860 +08:00 [Information] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-06-03 15:41:20.872 +08:00 [Debug] Closing connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.878 +08:00 [Debug] Closed connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.903 +08:00 [Debug] Migrating using database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.910 +08:00 [Debug] Opening connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.915 +08:00 [Debug] Opened connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.918 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 15:41:20.920 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2020-06-03 15:41:20.925 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 15:41:20.930 +08:00 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 15:41:20.935 +08:00 [Debug] Closing connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.937 +08:00 [Debug] Closed connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.939 +08:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-06-03 15:41:20.940 +08:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-06-03 15:41:20.941 +08:00 [Debug] Opening connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.943 +08:00 [Debug] Opened connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.945 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-06-03 15:41:20.948 +08:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-06-03 15:41:20.950 +08:00 [Debug] Closing connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.953 +08:00 [Debug] Closed connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.955 +08:00 [Debug] Opening connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.957 +08:00 [Debug] Opened connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.959 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 15:41:20.962 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2020-06-03 15:41:20.963 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 15:41:20.966 +08:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 15:41:20.968 +08:00 [Debug] Closing connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:20.971 +08:00 [Debug] Closed connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.104 +08:00 [Debug] DetectChanges starting for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 15:41:21.110 +08:00 [Debug] DetectChanges completed for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 15:41:21.129 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 15:41:21.132 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (3ms).
+===> 2020-06-03 15:41:21.134 +08:00 [Debug] Opening connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.136 +08:00 [Debug] Opened connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.138 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+===> 2020-06-03 15:41:21.179 +08:00 [Information] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+===> 2020-06-03 15:41:21.191 +08:00 [Debug] Closing connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.194 +08:00 [Debug] Closed connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.197 +08:00 [Debug] Opening connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.198 +08:00 [Debug] Opened connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.202 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 15:41:21.205 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2020-06-03 15:41:21.207 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 15:41:21.213 +08:00 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 15:41:21.216 +08:00 [Debug] Closing connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.221 +08:00 [Debug] Closed connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.225 +08:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-06-03 15:41:21.227 +08:00 [Debug] Created DbCommand for '"ExecuteScalar"' (2ms).
+===> 2020-06-03 15:41:21.232 +08:00 [Debug] Opening connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.234 +08:00 [Debug] Opened connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.236 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-06-03 15:41:21.251 +08:00 [Information] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-06-03 15:41:21.256 +08:00 [Debug] Closing connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.258 +08:00 [Debug] Closed connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.265 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 15:41:21.267 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2020-06-03 15:41:21.271 +08:00 [Debug] Opening connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.274 +08:00 [Debug] Opened connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.277 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-06-03 15:41:21.285 +08:00 [Information] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-06-03 15:41:21.292 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 15:41:21.294 +08:00 [Debug] Closing connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.297 +08:00 [Debug] Closed connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.308 +08:00 [Information] Applying migration '"20180708205028_InitialCreate"'.
+===> 2020-06-03 15:41:21.341 +08:00 [Debug] Opening connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.344 +08:00 [Debug] Opened connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.348 +08:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2020-06-03 15:41:21.367 +08:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2020-06-03 15:41:21.372 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 15:41:21.375 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2020-06-03 15:41:21.377 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2020-06-03 15:41:21.393 +08:00 [Information] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2020-06-03 15:41:21.412 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 15:41:21.414 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (1ms).
+===> 2020-06-03 15:41:21.415 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [FirstName] nvarchar(20) NOT NULL,
+    [LastName] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsAdminRole] bit NOT NULL,
+    [Roles] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    [Password] nvarchar(255) NULL,
+    [AccountId] int NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);"
+===> 2020-06-03 15:41:21.495 +08:00 [Error] Failed executing DbCommand ("77"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [FirstName] nvarchar(20) NOT NULL,
+    [LastName] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsAdminRole] bit NOT NULL,
+    [Roles] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    [Password] nvarchar(255) NULL,
+    [AccountId] int NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);"
+===> 2020-06-03 15:41:21.633 +08:00 [Debug] Disposing transaction.
+===> 2020-06-03 15:41:21.639 +08:00 [Debug] Closing connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.645 +08:00 [Debug] Closed connection to database '"MRCSB.CIMS"' on server '"."'.
+===> 2020-06-03 15:41:21.656 +08:00 [Debug] '"ApiNCorePracticeContext"' disposed.
+===> 2020-06-03 15:41:21.662 +08:00 [Error] There is already an object named 'Users' in the database.
+===> 2020-06-03 15:41:21.830 +08:00 [Debug] Failed to locate the development https certificate at 'null'.
+===> 2020-06-03 15:41:21.975 +08:00 [Information] Now listening on: "http://localhost:44342"
+===> 2020-06-03 15:41:21.979 +08:00 [Debug] Loaded hosting startup assembly "ApiNCorePractice.Api"
+===> 2020-06-03 15:41:22.147 +08:00 [Debug] Connection id ""0HM07I61F1TD6"" accepted.
+===> 2020-06-03 15:41:22.147 +08:00 [Debug] Connection id ""0HM07I61F1TD7"" accepted.
+===> 2020-06-03 15:41:22.152 +08:00 [Debug] Connection id ""0HM07I61F1TD6"" started.
+===> 2020-06-03 15:41:22.153 +08:00 [Debug] Connection id ""0HM07I61F1TD7"" started.
+===> 2020-06-03 15:41:22.175 +08:00 [Debug] Connection id ""0HM07I61F1TD7"" received FIN.
+===> 2020-06-03 15:41:22.175 +08:00 [Debug] Connection id ""0HM07I61F1TD6"" received FIN.
+===> 2020-06-03 15:41:22.219 +08:00 [Debug] Connection id ""0HM07I61F1TD6"" sending FIN because: ""The client closed the connection.""
+===> 2020-06-03 15:41:22.227 +08:00 [Debug] Connection id ""0HM07I61F1TD7"" sending FIN because: ""The client closed the connection.""
+===> 2020-06-03 15:41:22.233 +08:00 [Debug] Connection id ""0HM07I61F1TD6"" disconnecting.
+===> 2020-06-03 15:41:22.235 +08:00 [Debug] Connection id ""0HM07I61F1TD7"" disconnecting.
+===> 2020-06-03 15:41:22.243 +08:00 [Debug] Connection id ""0HM07I61F1TD7"" stopped.
+===> 2020-06-03 15:41:22.243 +08:00 [Debug] Connection id ""0HM07I61F1TD6"" stopped.
+===> 2020-06-03 15:41:23.529 +08:00 [Debug] Connection id ""0HM07I61F1TD8"" accepted.
+===> 2020-06-03 15:41:23.534 +08:00 [Debug] Connection id ""0HM07I61F1TD8"" started.
+===> 2020-06-03 15:41:23.610 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/info  
+===> 2020-06-03 15:41:23.614 +08:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-06-03 15:41:24.058 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 15:41:24.276 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-06-03 15:41:24.330 +08:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api").
+===> 2020-06-03 15:41:24.342 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-06-03 15:41:24.346 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 15:41:24.349 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 15:41:24.359 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 15:41:24.363 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-06-03 15:41:24.371 +08:00 [Debug] Executing controller factory for controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api")
+===> 2020-06-03 15:41:24.375 +08:00 [Debug] Executed controller factory for controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api")
+===> 2020-06-03 15:41:24.386 +08:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-06-03 15:41:24.482 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.v1.InfoController.ApiInfo (ApiNCorePractice.Api)" in 97.8337ms
+===> 2020-06-03 15:41:24.493 +08:00 [Debug] Connection id ""0HM07I61F1TD8"" completed keep alive response.
+===> 2020-06-03 15:41:24.505 +08:00 [Information] Request finished in 898.908ms 200 text/html
+===> 2020-06-03 15:41:25.596 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/favicon.ico  
+===> 2020-06-03 15:41:25.599 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 15:41:25.601 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 15:41:25.625 +08:00 [Debug] The request path "" does not match the path filter
+===> 2020-06-03 15:41:25.629 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 15:41:25.630 +08:00 [Debug] Connection id ""0HM07I61F1TD8"" completed keep alive response.
+===> 2020-06-03 15:41:25.632 +08:00 [Information] Request finished in 36.4224ms 404 
+===> 2020-06-03 15:44:44.982 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/bootstrap.min.css.map  
+===> 2020-06-03 15:44:44.994 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 15:44:44.999 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 15:44:45.001 +08:00 [Debug] The request path "" does not match the path filter
+===> 2020-06-03 15:44:45.003 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 15:44:45.005 +08:00 [Debug] Connection id ""0HM07I61F1TD8"" completed keep alive response.
+===> 2020-06-03 15:44:45.014 +08:00 [Information] Request finished in 32.7128ms 404 
+===> 2020-06-03 15:44:53.341 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/info  
+===> 2020-06-03 15:44:53.345 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 15:44:53.348 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-06-03 15:44:53.353 +08:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api").
+===> 2020-06-03 15:44:53.360 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-06-03 15:44:53.363 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 15:44:53.367 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 15:44:53.372 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 15:44:53.374 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-06-03 15:44:53.379 +08:00 [Debug] Executing controller factory for controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api")
+===> 2020-06-03 15:44:53.385 +08:00 [Debug] Executed controller factory for controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api")
+===> 2020-06-03 15:44:53.388 +08:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-06-03 15:44:53.390 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.v1.InfoController.ApiInfo (ApiNCorePractice.Api)" in 11.243ms
+===> 2020-06-03 15:44:53.394 +08:00 [Debug] Connection id ""0HM07I61F1TD8"" completed keep alive response.
+===> 2020-06-03 15:44:53.396 +08:00 [Information] Request finished in 55.1748ms 200 text/html
+===> 2020-06-03 15:44:58.477 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/info  
+===> 2020-06-03 15:44:58.485 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 15:44:58.498 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-06-03 15:44:58.518 +08:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api").
+===> 2020-06-03 15:44:58.546 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-06-03 15:44:58.557 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 15:44:58.590 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 15:44:58.605 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 15:44:58.611 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-06-03 15:44:58.615 +08:00 [Debug] Executing controller factory for controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api")
+===> 2020-06-03 15:44:58.620 +08:00 [Debug] Executed controller factory for controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api")
+===> 2020-06-03 15:44:58.623 +08:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-06-03 15:44:58.625 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.v1.InfoController.ApiInfo (ApiNCorePractice.Api)" in 10.4136ms
+===> 2020-06-03 15:44:58.629 +08:00 [Debug] Connection id ""0HM07I61F1TD8"" completed keep alive response.
+===> 2020-06-03 15:44:58.631 +08:00 [Information] Request finished in 154.7559ms 200 text/html
+===> 2020-06-03 15:45:04.965 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/info  
+===> 2020-06-03 15:45:04.968 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 15:45:04.971 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-06-03 15:45:04.975 +08:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api").
+===> 2020-06-03 15:45:04.981 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-06-03 15:45:04.982 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 15:45:04.986 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 15:45:04.988 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 15:45:04.991 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-06-03 15:45:04.997 +08:00 [Debug] Executing controller factory for controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api")
+===> 2020-06-03 15:45:04.999 +08:00 [Debug] Executed controller factory for controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api")
+===> 2020-06-03 15:45:05.025 +08:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-06-03 15:45:05.031 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.v1.InfoController.ApiInfo (ApiNCorePractice.Api)" in 33.6871ms
+===> 2020-06-03 15:45:05.039 +08:00 [Debug] Connection id ""0HM07I61F1TD8"" completed keep alive response.
+===> 2020-06-03 15:45:05.043 +08:00 [Information] Request finished in 79.0473ms 200 text/html
+===> 2020-06-03 16:04:08.469 +08:00 [Information] Starting web host
+===> 2020-06-03 16:04:08.591 +08:00 [Information] User profile is available. Using '"C:\Users\fpt\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-06-03 16:04:08.638 +08:00 [Debug] Reading data from file '"C:\Users\fpt\AppData\Local\ASP.NET\DataProtection-Keys\key-8908e446-2b99-4a24-86b5-b79c63f31d9d.xml"'.
+===> 2020-06-03 16:04:08.667 +08:00 [Debug] Found key {8908e446-2b99-4a24-86b5-b79c63f31d9d}.
+===> 2020-06-03 16:04:08.681 +08:00 [Debug] Considering key {8908e446-2b99-4a24-86b5-b79c63f31d9d} with expiration date 2020-09-01 07:41:15Z as default key.
+===> 2020-06-03 16:04:08.711 +08:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-06-03 16:04:08.715 +08:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-06-03 16:04:08.718 +08:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-06-03 16:04:08.725 +08:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-06-03 16:04:08.730 +08:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-06-03 16:04:08.735 +08:00 [Debug] Using key {8908e446-2b99-4a24-86b5-b79c63f31d9d} as the default key.
+===> 2020-06-03 16:04:08.737 +08:00 [Debug] Key ring with default key {8908e446-2b99-4a24-86b5-b79c63f31d9d} was loaded during application startup.
+===> 2020-06-03 16:04:08.765 +08:00 [Information] Startup::Configure
+===> 2020-06-03 16:04:08.861 +08:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-06-03 16:04:08.894 +08:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-06-03 16:04:09.008 +08:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-06-03 16:04:09.087 +08:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-06-03 16:04:09.889 +08:00 [Information] Entity Framework Core "3.1.0" initialized '"ApiNCorePracticeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-06-03 16:04:10.034 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:22.368 +08:00 [Debug] An error occurred using the connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:22.384 +08:00 [Debug] Migrating using database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:22.386 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:22.390 +08:00 [Debug] An error occurred using the connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:22.393 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:22.395 +08:00 [Debug] An error occurred using the connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:22.439 +08:00 [Debug] Opening connection to database '"master"' on server '"."'.
+===> 2020-06-03 16:04:23.504 +08:00 [Debug] Opened connection to database '"master"' on server '"."'.
+===> 2020-06-03 16:04:23.521 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 16:04:23.542 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (12ms).
+===> 2020-06-03 16:04:23.557 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [ApiNCorePractice];"
+===> 2020-06-03 16:04:24.013 +08:00 [Information] Executed DbCommand ("443"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [ApiNCorePractice];"
+===> 2020-06-03 16:04:24.022 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 16:04:24.023 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (1ms).
+===> 2020-06-03 16:04:24.028 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ApiNCorePractice] SET READ_COMMITTED_SNAPSHOT ON;
+END;"
+===> 2020-06-03 16:04:24.169 +08:00 [Information] Executed DbCommand ("141"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ApiNCorePractice] SET READ_COMMITTED_SNAPSHOT ON;
+END;"
+===> 2020-06-03 16:04:24.187 +08:00 [Debug] Closing connection to database '"master"' on server '"."'.
+===> 2020-06-03 16:04:24.213 +08:00 [Debug] Closed connection to database '"master"' on server '"."'.
+===> 2020-06-03 16:04:24.219 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.243 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.255 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 16:04:25.264 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (9ms).
+===> 2020-06-03 16:04:25.276 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 16:04:25.333 +08:00 [Information] Executed DbCommand ("58"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 16:04:25.353 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.364 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.543 +08:00 [Debug] DetectChanges starting for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:25.548 +08:00 [Debug] DetectChanges completed for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:25.561 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 16:04:25.564 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (3ms).
+===> 2020-06-03 16:04:25.566 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.569 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.570 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+===> 2020-06-03 16:04:25.595 +08:00 [Information] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+===> 2020-06-03 16:04:25.605 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.607 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.610 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.612 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.614 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 16:04:25.616 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (1ms).
+===> 2020-06-03 16:04:25.618 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 16:04:25.620 +08:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-06-03 16:04:25.624 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.625 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.630 +08:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-06-03 16:04:25.633 +08:00 [Debug] Created DbCommand for '"ExecuteScalar"' (2ms).
+===> 2020-06-03 16:04:25.635 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.637 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.640 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-06-03 16:04:25.662 +08:00 [Information] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-06-03 16:04:25.667 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.670 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.673 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:04:25.675 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2020-06-03 16:04:25.678 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.679 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.681 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-06-03 16:04:25.692 +08:00 [Information] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-06-03 16:04:25.698 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:04:25.699 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.700 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.712 +08:00 [Information] Applying migration '"20180708205028_InitialCreate"'.
+===> 2020-06-03 16:04:25.743 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.746 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.750 +08:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2020-06-03 16:04:25.760 +08:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2020-06-03 16:04:25.765 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 16:04:25.766 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (1ms).
+===> 2020-06-03 16:04:25.769 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2020-06-03 16:04:25.778 +08:00 [Information] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2020-06-03 16:04:25.784 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 16:04:25.785 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (1ms).
+===> 2020-06-03 16:04:25.786 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [FirstName] nvarchar(20) NOT NULL,
+    [LastName] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsAdminRole] bit NOT NULL,
+    [Roles] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    [Password] nvarchar(255) NULL,
+    [AccountId] int NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);"
+===> 2020-06-03 16:04:25.804 +08:00 [Information] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [FirstName] nvarchar(20) NOT NULL,
+    [LastName] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsAdminRole] bit NOT NULL,
+    [Roles] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    [Password] nvarchar(255) NULL,
+    [AccountId] int NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);"
+===> 2020-06-03 16:04:25.816 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 16:04:25.818 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (1ms).
+===> 2020-06-03 16:04:25.819 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Users_AccountId] ON [Users] ([AccountId]);"
+===> 2020-06-03 16:04:25.828 +08:00 [Information] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Users_AccountId] ON [Users] ([AccountId]);"
+===> 2020-06-03 16:04:25.833 +08:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-06-03 16:04:25.836 +08:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2020-06-03 16:04:25.841 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20180708205028_InitialCreate', N'3.1.0');"
+===> 2020-06-03 16:04:25.851 +08:00 [Information] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20180708205028_InitialCreate', N'3.1.0');"
+===> 2020-06-03 16:04:25.859 +08:00 [Debug] Committing transaction.
+===> 2020-06-03 16:04:25.864 +08:00 [Debug] Committing transaction.
+===> 2020-06-03 16:04:25.867 +08:00 [Debug] Disposing transaction.
+===> 2020-06-03 16:04:25.869 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:25.871 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.132 +08:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    ApiNCorePractice.Entity.Context.ApiNCorePracticeContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-06-03 16:04:26.159 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:04:26.161 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2020-06-03 16:04:26.163 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.165 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.167 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-06-03 16:04:26.172 +08:00 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-06-03 16:04:26.179 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:04:26.181 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.183 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.406 +08:00 [Debug] '"ApiNCorePracticeContext"' generated a temporary value for the '"Id"' property of new '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-06-03 16:04:26.494 +08:00 [Debug] Context '"ApiNCorePracticeContext"' started tracking '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-06-03 16:04:26.498 +08:00 [Debug] DetectChanges starting for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:26.513 +08:00 [Debug] DetectChanges completed for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:26.518 +08:00 [Debug] SaveChanges starting for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:26.520 +08:00 [Debug] DetectChanges starting for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:26.528 +08:00 [Debug] Unchanged '"Account"."Created"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-06-03 16:04:26.533 +08:00 [Debug] Unchanged '"Account"."Modified"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-06-03 16:04:26.536 +08:00 [Debug] DetectChanges completed for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:26.547 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.552 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.554 +08:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2020-06-03 16:04:26.556 +08:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2020-06-03 16:04:26.600 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:04:26.602 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2020-06-03 16:04:26.616 +08:00 [Debug] Executing DbCommand [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 255), @p2='?' (Size = 30), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 30), @p7='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Accounts] ([Created], [Description], [Email], [IsActive], [IsTrial], [Modified], [Name], [SetActive])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id], [RowVersion]
+FROM [Accounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2020-06-03 16:04:26.690 +08:00 [Information] Executed DbCommand ("79"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 255), @p2='?' (Size = 30), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 30), @p7='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Accounts] ([Created], [Description], [Email], [IsActive], [IsTrial], [Modified], [Name], [SetActive])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id], [RowVersion]
+FROM [Accounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2020-06-03 16:04:26.725 +08:00 [Debug] Foreign key property '"Account"."Id"' detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-06-03 16:04:26.736 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:04:26.738 +08:00 [Debug] Committing transaction.
+===> 2020-06-03 16:04:26.740 +08:00 [Debug] Committing transaction.
+===> 2020-06-03 16:04:26.742 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.745 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.746 +08:00 [Debug] Disposing transaction.
+===> 2020-06-03 16:04:26.760 +08:00 [Debug] An '"Account"' entity tracked by '"ApiNCorePracticeContext"' changed from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-06-03 16:04:26.765 +08:00 [Debug] SaveChanges completed for '"ApiNCorePracticeContext"' with 1 entities written to the database.
+===> 2020-06-03 16:04:26.770 +08:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    ApiNCorePractice.Entity.Context.ApiNCorePracticeContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-06-03 16:04:26.777 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:04:26.778 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-06-03 16:04:26.780 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.783 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.784 +08:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-06-03 16:04:26.788 +08:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-06-03 16:04:26.793 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:04:26.795 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.796 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.819 +08:00 [Debug] '"ApiNCorePracticeContext"' generated a temporary value for the '"Id"' property of new '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-06-03 16:04:26.850 +08:00 [Debug] Context '"ApiNCorePracticeContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-06-03 16:04:26.858 +08:00 [Debug] DetectChanges starting for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:26.873 +08:00 [Debug] DetectChanges completed for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:26.876 +08:00 [Debug] SaveChanges starting for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:26.880 +08:00 [Debug] DetectChanges starting for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:26.881 +08:00 [Debug] Unchanged '"User"."Created"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-06-03 16:04:26.884 +08:00 [Debug] Unchanged '"User"."Modified"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-06-03 16:04:26.886 +08:00 [Debug] DetectChanges completed for '"ApiNCorePracticeContext"'.
+===> 2020-06-03 16:04:26.887 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.890 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.893 +08:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2020-06-03 16:04:26.896 +08:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2020-06-03 16:04:26.902 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:04:26.904 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-06-03 16:04:26.906 +08:00 [Debug] Executing DbCommand [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 255), @p3='?' (Size = 30), @p4='?' (Size = 20), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 20), @p8='?' (DbType = DateTime2), @p9='?' (Size = -1), @p10='?' (Size = 255), @p11='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountId], [Created], [Description], [Email], [FirstName], [IsActive], [IsAdminRole], [LastName], [Modified], [Password], [Roles], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id], [RowVersion]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2020-06-03 16:04:26.934 +08:00 [Information] Executed DbCommand ("28"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 255), @p3='?' (Size = 30), @p4='?' (Size = 20), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 20), @p8='?' (DbType = DateTime2), @p9='?' (Size = -1), @p10='?' (Size = 255), @p11='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountId], [Created], [Description], [Email], [FirstName], [IsActive], [IsAdminRole], [LastName], [Modified], [Password], [Roles], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id], [RowVersion]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2020-06-03 16:04:26.947 +08:00 [Debug] Foreign key property '"User"."Id"' detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-06-03 16:04:26.951 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:04:26.952 +08:00 [Debug] Committing transaction.
+===> 2020-06-03 16:04:26.954 +08:00 [Debug] Committing transaction.
+===> 2020-06-03 16:04:26.956 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.961 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:04:26.963 +08:00 [Debug] Disposing transaction.
+===> 2020-06-03 16:04:26.968 +08:00 [Debug] An '"User"' entity tracked by '"ApiNCorePracticeContext"' changed from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-06-03 16:04:26.971 +08:00 [Debug] SaveChanges completed for '"ApiNCorePracticeContext"' with 1 entities written to the database.
+===> 2020-06-03 16:04:26.976 +08:00 [Debug] '"ApiNCorePracticeContext"' disposed.
+===> 2020-06-03 16:04:27.025 +08:00 [Debug] Failed to locate the development https certificate at 'null'.
+===> 2020-06-03 16:04:27.107 +08:00 [Information] Now listening on: "http://localhost:44342"
+===> 2020-06-03 16:04:27.111 +08:00 [Debug] Loaded hosting startup assembly "ApiNCorePractice.Api"
+===> 2020-06-03 16:04:27.376 +08:00 [Debug] Connection id ""0HM07IIU9LMR6"" received FIN.
+===> 2020-06-03 16:04:27.376 +08:00 [Debug] Connection id ""0HM07IIU9LMR5"" received FIN.
+===> 2020-06-03 16:04:27.414 +08:00 [Debug] Connection id ""0HM07IIU9LMR6"" accepted.
+===> 2020-06-03 16:04:27.414 +08:00 [Debug] Connection id ""0HM07IIU9LMR5"" accepted.
+===> 2020-06-03 16:04:27.418 +08:00 [Debug] Connection id ""0HM07IIU9LMR6"" started.
+===> 2020-06-03 16:04:27.419 +08:00 [Debug] Connection id ""0HM07IIU9LMR5"" started.
+===> 2020-06-03 16:04:27.429 +08:00 [Debug] Connection id ""0HM07IIU9LMR5"" sending FIN because: ""The client closed the connection.""
+===> 2020-06-03 16:04:27.429 +08:00 [Debug] Connection id ""0HM07IIU9LMR6"" sending FIN because: ""The client closed the connection.""
+===> 2020-06-03 16:04:27.436 +08:00 [Debug] Connection id ""0HM07IIU9LMR5"" disconnecting.
+===> 2020-06-03 16:04:27.442 +08:00 [Debug] Connection id ""0HM07IIU9LMR6"" disconnecting.
+===> 2020-06-03 16:04:27.456 +08:00 [Debug] Connection id ""0HM07IIU9LMR5"" stopped.
+===> 2020-06-03 16:04:27.456 +08:00 [Debug] Connection id ""0HM07IIU9LMR6"" stopped.
+===> 2020-06-03 16:04:28.847 +08:00 [Debug] Connection id ""0HM07IIU9LMR7"" accepted.
+===> 2020-06-03 16:04:28.850 +08:00 [Debug] Connection id ""0HM07IIU9LMR7"" started.
+===> 2020-06-03 16:04:28.898 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/info  
+===> 2020-06-03 16:04:28.902 +08:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-06-03 16:04:28.987 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:04:29.134 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-06-03 16:04:29.180 +08:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api").
+===> 2020-06-03 16:04:29.196 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-06-03 16:04:29.200 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 16:04:29.205 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:04:29.210 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 16:04:29.215 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-06-03 16:04:29.222 +08:00 [Debug] Executing controller factory for controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api")
+===> 2020-06-03 16:04:29.227 +08:00 [Debug] Executed controller factory for controller "ApiNCorePractice.Api.Controllers.v1.InfoController" ("ApiNCorePractice.Api")
+===> 2020-06-03 16:04:29.239 +08:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-06-03 16:04:29.287 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.v1.InfoController.ApiInfo (ApiNCorePractice.Api)" in 56.5719ms
+===> 2020-06-03 16:04:29.302 +08:00 [Debug] Connection id ""0HM07IIU9LMR7"" completed keep alive response.
+===> 2020-06-03 16:04:29.306 +08:00 [Information] Request finished in 413.8428ms 200 text/html
+===> 2020-06-03 16:06:29.782 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/swagger  
+===> 2020-06-03 16:06:29.794 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:06:29.798 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 16:06:29.828 +08:00 [Debug] Connection id ""0HM07IIU9LMR7"" completed keep alive response.
+===> 2020-06-03 16:06:29.840 +08:00 [Information] Request finished in 58.2818ms 301 
+===> 2020-06-03 16:06:29.850 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/swagger/index.html  
+===> 2020-06-03 16:06:29.858 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:06:29.862 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 16:06:29.966 +08:00 [Debug] Connection id ""0HM07IIU9LMR7"" completed keep alive response.
+===> 2020-06-03 16:06:29.971 +08:00 [Information] Request finished in 120.5716ms 200 text/html;charset=utf-8
+===> 2020-06-03 16:06:30.014 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/swagger/swagger-ui.css  
+===> 2020-06-03 16:06:30.016 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" accepted.
+===> 2020-06-03 16:06:30.026 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:06:30.031 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" started.
+===> 2020-06-03 16:06:30.041 +08:00 [Debug] Connection id ""0HM07IIU9LMR9"" accepted.
+===> 2020-06-03 16:06:30.044 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 16:06:30.057 +08:00 [Debug] Connection id ""0HM07IIU9LMR9"" started.
+===> 2020-06-03 16:06:30.051 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/swagger/swagger-ui-bundle.js  
+===> 2020-06-03 16:06:30.069 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/swagger/swagger-ui-standalone-preset.js  
+===> 2020-06-03 16:06:30.077 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:06:30.080 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:06:30.082 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 16:06:30.084 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 16:06:30.197 +08:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2020-06-03 16:06:30.201 +08:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2020-06-03 16:06:30.220 +08:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2020-06-03 16:06:30.233 +08:00 [Debug] Connection id ""0HM07IIU9LMR7"" completed keep alive response.
+===> 2020-06-03 16:06:30.233 +08:00 [Debug] Connection id ""0HM07IIU9LMR9"" completed keep alive response.
+===> 2020-06-03 16:06:30.234 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" completed keep alive response.
+===> 2020-06-03 16:06:30.236 +08:00 [Information] Request finished in 222.18ms 200 text/css
+===> 2020-06-03 16:06:30.239 +08:00 [Information] Request finished in 169.9139ms 200 application/javascript
+===> 2020-06-03 16:06:30.240 +08:00 [Information] Request finished in 189.5616ms 200 application/javascript
+===> 2020-06-03 16:06:30.484 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/swagger/v1/swagger.json  
+===> 2020-06-03 16:06:30.487 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:06:30.490 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 16:06:30.502 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/swagger/favicon-32x32.png  
+===> 2020-06-03 16:06:30.505 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:06:30.506 +08:00 [Debug] Request did not match any routes
+===> 2020-06-03 16:06:30.509 +08:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+===> 2020-06-03 16:06:30.512 +08:00 [Debug] Connection id ""0HM07IIU9LMR9"" completed keep alive response.
+===> 2020-06-03 16:06:30.516 +08:00 [Information] Request finished in 14.1329ms 200 image/png
+===> 2020-06-03 16:06:30.730 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" completed keep alive response.
+===> 2020-06-03 16:06:30.735 +08:00 [Information] Request finished in 250.5975ms 200 application/json;charset=utf-8
+===> 2020-06-03 16:06:51.205 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/Account  
+===> 2020-06-03 16:06:51.207 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:06:51.210 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-06-03 16:06:51.214 +08:00 [Debug] Action '"ApiNCorePractice.Api.Controllers.AccountController.Create (ApiNCorePractice.Api)"' with id '"382e81de-c938-4102-b7e0-e0330b1ad465"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-06-03 16:06:51.223 +08:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ApiNCorePractice.Domain.AccountViewModel] GetAll()" on controller "ApiNCorePractice.Api.Controllers.AccountController" ("ApiNCorePractice.Api").
+===> 2020-06-03 16:06:51.231 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-06-03 16:06:51.233 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 16:06:51.237 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:06:51.241 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 16:06:51.246 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:06:51.266 +08:00 [Information] Authorization failed.
+===> 2020-06-03 16:06:51.271 +08:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-06-03 16:06:51.281 +08:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-06-03 16:06:51.299 +08:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-06-03 16:06:51.304 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.AccountController.GetAll (ApiNCorePractice.Api)" in 53.6709ms
+===> 2020-06-03 16:06:51.311 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" completed keep alive response.
+===> 2020-06-03 16:06:51.314 +08:00 [Information] Request finished in 109.0374ms 401 
+===> 2020-06-03 16:08:10.640 +08:00 [Information] Request starting HTTP/1.1 POST http://localhost:44342/api/Token application/json-patch+json 60
+===> 2020-06-03 16:08:10.649 +08:00 [Debug] The request has an origin header: '"http://localhost:44342"'.
+===> 2020-06-03 16:08:10.655 +08:00 [Information] CORS policy execution successful.
+===> 2020-06-03 16:08:10.659 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:08:10.665 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Token"'
+===> 2020-06-03 16:08:10.692 +08:00 [Information] Route matched with "{action = \"Create\", controller = \"Token\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.TokenController" ("ApiNCorePractice.Api").
+===> 2020-06-03 16:08:10.696 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-06-03 16:08:10.698 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 16:08:10.700 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:08:10.704 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 16:08:10.706 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:08:10.715 +08:00 [Debug] Executing controller factory for controller "JWT.Controllers.TokenController" ("ApiNCorePractice.Api")
+===> 2020-06-03 16:08:11.262 +08:00 [Debug] Executed controller factory for controller "JWT.Controllers.TokenController" ("ApiNCorePractice.Api")
+===> 2020-06-03 16:08:11.279 +08:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-06-03 16:08:11.290 +08:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' using the name '""' in request data ...
+===> 2020-06-03 16:08:11.298 +08:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type '"application/json-patch+json"'.
+===> 2020-06-03 16:08:11.308 +08:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type '"application/json-patch+json"'.
+===> 2020-06-03 16:08:11.327 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"", Request id ""0HM07IIU9LMR8:00000004"": started reading request body.
+===> 2020-06-03 16:08:11.332 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"", Request id ""0HM07IIU9LMR8:00000004"": done reading request body.
+===> 2020-06-03 16:08:11.367 +08:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-06-03 16:08:11.372 +08:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-06-03 16:08:11.379 +08:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-06-03 16:08:11.389 +08:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-06-03 16:08:11.427 +08:00 [Information] Entity Framework Core "3.1.0" initialized '"ApiNCorePracticeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-06-03 16:08:11.566 +08:00 [Debug] "queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    ApiNCorePractice.Entity.Context.ApiNCorePracticeContext, 
+    DiagnosticsLogger<Query>
+)"
+===> 2020-06-03 16:08:11.585 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:08:11.589 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (4ms).
+===> 2020-06-03 16:08:11.592 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:08:11.594 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:08:11.598 +08:00 [Debug] Executing DbCommand [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[RowVersion], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2020-06-03 16:08:11.610 +08:00 [Information] Executed DbCommand ("12"ms) [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[RowVersion], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2020-06-03 16:08:11.629 +08:00 [Debug] Context '"ApiNCorePracticeContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-06-03 16:08:11.676 +08:00 [Debug] Navigation property '"Account"' of entity type '"UserProxy"' is being lazy-loaded.
+===> 2020-06-03 16:08:11.717 +08:00 [Debug] "queryContext => new QueryingEnumerable<Account>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Account>, 
+    ApiNCorePractice.Entity.Context.ApiNCorePracticeContext, 
+    DiagnosticsLogger<Query>
+)"
+===> 2020-06-03 16:08:11.721 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:08:11.723 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-06-03 16:08:11.726 +08:00 [Debug] Executing DbCommand [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[Created], [a].[Description], [a].[Email], [a].[IsActive], [a].[IsTrial], [a].[Modified], [a].[Name], [a].[RowVersion], [a].[SetActive]
+FROM [Accounts] AS [a]
+WHERE [a].[Id] = @__p_0"
+===> 2020-06-03 16:08:11.738 +08:00 [Information] Executed DbCommand ("11"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[Created], [a].[Description], [a].[Email], [a].[IsActive], [a].[IsTrial], [a].[Modified], [a].[Name], [a].[RowVersion], [a].[SetActive]
+FROM [Accounts] AS [a]
+WHERE [a].[Id] = @__p_0"
+===> 2020-06-03 16:08:11.747 +08:00 [Debug] Context '"ApiNCorePracticeContext"' started tracking '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-06-03 16:08:11.762 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:08:11.816 +08:00 [Debug] Navigation property '"Users"' of entity type '"AccountProxy"' is being lazy-loaded.
+===> 2020-06-03 16:08:11.828 +08:00 [Debug] "queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    ApiNCorePractice.Entity.Context.ApiNCorePracticeContext, 
+    DiagnosticsLogger<Query>
+)"
+===> 2020-06-03 16:08:11.833 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:08:11.834 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-06-03 16:08:11.837 +08:00 [Debug] Executing DbCommand [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[RowVersion], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[AccountId] = @__p_0"
+===> 2020-06-03 16:08:11.848 +08:00 [Information] Executed DbCommand ("11"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[RowVersion], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[AccountId] = @__p_0"
+===> 2020-06-03 16:08:11.856 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:08:11.859 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:08:11.861 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:08:11.866 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:08:11.986 +08:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-06-03 16:08:12.004 +08:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-06-03 16:08:12.008 +08:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2020-06-03 16:08:12.013 +08:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2020-06-03 16:08:12.021 +08:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2020-06-03 16:08:12.032 +08:00 [Information] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+===> 2020-06-03 16:08:12.082 +08:00 [Information] Executed action "JWT.Controllers.TokenController.Create (ApiNCorePractice.Api)" in 1367.9604ms
+===> 2020-06-03 16:08:12.090 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" completed keep alive response.
+===> 2020-06-03 16:08:12.092 +08:00 [Debug] '"ApiNCorePracticeContext"' disposed.
+===> 2020-06-03 16:08:12.096 +08:00 [Information] Request finished in 1455.8038ms 200 application/json; charset=utf-8
+===> 2020-06-03 16:11:12.568 +08:00 [Information] Request starting HTTP/1.1 POST http://localhost:44342/api/Token application/json-patch+json 60
+===> 2020-06-03 16:11:12.572 +08:00 [Debug] The request has an origin header: '"http://localhost:44342"'.
+===> 2020-06-03 16:11:12.573 +08:00 [Information] CORS policy execution successful.
+===> 2020-06-03 16:11:12.574 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:11:12.575 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Token"'
+===> 2020-06-03 16:11:12.579 +08:00 [Information] Route matched with "{action = \"Create\", controller = \"Token\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.TokenController" ("ApiNCorePractice.Api").
+===> 2020-06-03 16:11:12.585 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-06-03 16:11:12.587 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 16:11:12.589 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:11:12.594 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 16:11:12.596 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:11:12.604 +08:00 [Debug] Executing controller factory for controller "JWT.Controllers.TokenController" ("ApiNCorePractice.Api")
+===> 2020-06-03 16:11:16.834 +08:00 [Debug] Executed controller factory for controller "JWT.Controllers.TokenController" ("ApiNCorePractice.Api")
+===> 2020-06-03 16:11:16.838 +08:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-06-03 16:11:16.840 +08:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' using the name '""' in request data ...
+===> 2020-06-03 16:11:16.842 +08:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type '"application/json-patch+json"'.
+===> 2020-06-03 16:11:16.846 +08:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type '"application/json-patch+json"'.
+===> 2020-06-03 16:11:16.851 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"", Request id ""0HM07IIU9LMR8:00000005"": started reading request body.
+===> 2020-06-03 16:11:16.857 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"", Request id ""0HM07IIU9LMR8:00000005"": done reading request body.
+===> 2020-06-03 16:11:21.238 +08:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-06-03 16:11:21.244 +08:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-06-03 16:11:21.247 +08:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-06-03 16:11:21.252 +08:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-06-03 16:11:36.955 +08:00 [Information] Entity Framework Core "3.1.0" initialized '"ApiNCorePracticeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-06-03 16:11:36.968 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:11:36.970 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2020-06-03 16:11:36.973 +08:00 [Debug] Opening connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:11:36.976 +08:00 [Debug] Opened connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:11:36.979 +08:00 [Debug] Executing DbCommand [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[RowVersion], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2020-06-03 16:11:36.988 +08:00 [Information] Executed DbCommand ("9"ms) [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[RowVersion], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2020-06-03 16:11:36.993 +08:00 [Debug] Context '"ApiNCorePracticeContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-06-03 16:11:37.003 +08:00 [Debug] Navigation property '"Account"' of entity type '"UserProxy"' is being lazy-loaded.
+===> 2020-06-03 16:11:37.007 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:11:37.008 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-06-03 16:11:37.009 +08:00 [Debug] Executing DbCommand [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[Created], [a].[Description], [a].[Email], [a].[IsActive], [a].[IsTrial], [a].[Modified], [a].[Name], [a].[RowVersion], [a].[SetActive]
+FROM [Accounts] AS [a]
+WHERE [a].[Id] = @__p_0"
+===> 2020-06-03 16:11:37.018 +08:00 [Information] Executed DbCommand ("8"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[Created], [a].[Description], [a].[Email], [a].[IsActive], [a].[IsTrial], [a].[Modified], [a].[Name], [a].[RowVersion], [a].[SetActive]
+FROM [Accounts] AS [a]
+WHERE [a].[Id] = @__p_0"
+===> 2020-06-03 16:11:37.021 +08:00 [Debug] Context '"ApiNCorePracticeContext"' started tracking '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-06-03 16:11:37.024 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:11:37.026 +08:00 [Debug] Navigation property '"Users"' of entity type '"AccountProxy"' is being lazy-loaded.
+===> 2020-06-03 16:11:37.031 +08:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-06-03 16:11:37.036 +08:00 [Debug] Created DbCommand for '"ExecuteReader"' (5ms).
+===> 2020-06-03 16:11:37.038 +08:00 [Debug] Executing DbCommand [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[RowVersion], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[AccountId] = @__p_0"
+===> 2020-06-03 16:11:37.043 +08:00 [Information] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[RowVersion], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[AccountId] = @__p_0"
+===> 2020-06-03 16:11:37.052 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:11:37.056 +08:00 [Debug] A data reader was disposed.
+===> 2020-06-03 16:11:37.058 +08:00 [Debug] Closing connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:11:37.059 +08:00 [Debug] Closed connection to database '"ApiNCorePractice"' on server '"."'.
+===> 2020-06-03 16:13:38.491 +08:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-06-03 16:13:38.520 +08:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-06-03 16:13:38.538 +08:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2020-06-03 16:13:38.554 +08:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2020-06-03 16:13:38.566 +08:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2020-06-03 16:13:38.583 +08:00 [Information] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+===> 2020-06-03 16:13:38.690 +08:00 [Information] Executed action "JWT.Controllers.TokenController.Create (ApiNCorePractice.Api)" in 146085.6895ms
+===> 2020-06-03 16:13:38.703 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" completed keep alive response.
+===> 2020-06-03 16:13:41.407 +08:00 [Debug] '"ApiNCorePracticeContext"' disposed.
+===> 2020-06-03 16:13:41.410 +08:00 [Information] Request finished in 148842.3073ms 200 application/json; charset=utf-8
+===> 2020-06-03 16:14:16.736 +08:00 [Debug] Connection id ""0HM07IIU9LMR7"" received FIN.
+===> 2020-06-03 16:14:16.736 +08:00 [Debug] Connection id ""0HM07IIU9LMR9"" received FIN.
+===> 2020-06-03 16:14:16.736 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/Account  
+===> 2020-06-03 16:14:16.742 +08:00 [Debug] Connection id ""0HM07IIU9LMR7"" sending FIN because: ""The client closed the connection.""
+===> 2020-06-03 16:14:16.742 +08:00 [Debug] Connection id ""0HM07IIU9LMR9"" disconnecting.
+===> 2020-06-03 16:14:16.751 +08:00 [Debug] Connection id ""0HM07IIU9LMR7"" disconnecting.
+===> 2020-06-03 16:14:16.749 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:14:16.759 +08:00 [Debug] Connection id ""0HM07IIU9LMR9"" sending FIN because: ""The client closed the connection.""
+===> 2020-06-03 16:14:16.764 +08:00 [Debug] Connection id ""0HM07IIU9LMR7"" stopped.
+===> 2020-06-03 16:14:16.768 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-06-03 16:14:16.771 +08:00 [Debug] Connection id ""0HM07IIU9LMR9"" stopped.
+===> 2020-06-03 16:14:16.773 +08:00 [Debug] Action '"ApiNCorePractice.Api.Controllers.AccountController.Create (ApiNCorePractice.Api)"' with id '"382e81de-c938-4102-b7e0-e0330b1ad465"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-06-03 16:14:16.781 +08:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ApiNCorePractice.Domain.AccountViewModel] GetAll()" on controller "ApiNCorePractice.Api.Controllers.AccountController" ("ApiNCorePractice.Api").
+===> 2020-06-03 16:14:16.788 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-06-03 16:14:16.791 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 16:14:16.794 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:14:16.803 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 16:14:16.806 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:14:16.809 +08:00 [Information] Authorization failed.
+===> 2020-06-03 16:14:16.809 +08:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-06-03 16:14:16.812 +08:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-06-03 16:14:16.815 +08:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-06-03 16:14:16.822 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.AccountController.GetAll (ApiNCorePractice.Api)" in 13.9915ms
+===> 2020-06-03 16:14:16.831 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" completed keep alive response.
+===> 2020-06-03 16:14:16.840 +08:00 [Information] Request finished in 103.4725ms 401 
+===> 2020-06-03 16:14:40.753 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/User  
+===> 2020-06-03 16:14:40.760 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:14:40.770 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/User"'
+===> 2020-06-03 16:14:40.782 +08:00 [Debug] Action '"ApiNCorePractice.Api.Controllers.UserController.Create (ApiNCorePractice.Api)"' with id '"8b53e182-8744-4086-b211-f00659ca4a09"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-06-03 16:14:40.818 +08:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ApiNCorePractice.Domain.UserViewModel] GetAll()" on controller "ApiNCorePractice.Api.Controllers.UserController" ("ApiNCorePractice.Api").
+===> 2020-06-03 16:14:40.834 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-06-03 16:14:40.843 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 16:14:40.849 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:14:40.857 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 16:14:40.860 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:14:40.867 +08:00 [Information] Authorization failed.
+===> 2020-06-03 16:14:40.869 +08:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-06-03 16:14:40.874 +08:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-06-03 16:14:40.876 +08:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-06-03 16:14:40.877 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.UserController.GetAll (ApiNCorePractice.Api)" in 12.4335ms
+===> 2020-06-03 16:14:40.883 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" completed keep alive response.
+===> 2020-06-03 16:14:40.885 +08:00 [Information] Request finished in 132.0675ms 401 
+===> 2020-06-03 16:17:11.540 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/User  
+===> 2020-06-03 16:17:11.552 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:17:11.554 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/User"'
+===> 2020-06-03 16:17:11.559 +08:00 [Debug] Action '"ApiNCorePractice.Api.Controllers.UserController.Create (ApiNCorePractice.Api)"' with id '"8b53e182-8744-4086-b211-f00659ca4a09"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-06-03 16:17:11.565 +08:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ApiNCorePractice.Domain.UserViewModel] GetAll()" on controller "ApiNCorePractice.Api.Controllers.UserController" ("ApiNCorePractice.Api").
+===> 2020-06-03 16:17:11.574 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-06-03 16:17:11.579 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 16:17:11.583 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:17:11.589 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 16:17:11.593 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:17:11.600 +08:00 [Information] Authorization failed.
+===> 2020-06-03 16:17:11.601 +08:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-06-03 16:17:11.605 +08:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-06-03 16:17:11.610 +08:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-06-03 16:17:11.612 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.UserController.GetAll (ApiNCorePractice.Api)" in 12.9398ms
+===> 2020-06-03 16:17:11.615 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" completed keep alive response.
+===> 2020-06-03 16:17:11.621 +08:00 [Information] Request finished in 82.1328ms 401 
+===> 2020-06-03 16:17:12.629 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/User  
+===> 2020-06-03 16:17:12.631 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:17:12.633 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/User"'
+===> 2020-06-03 16:17:12.635 +08:00 [Debug] Action '"ApiNCorePractice.Api.Controllers.UserController.Create (ApiNCorePractice.Api)"' with id '"8b53e182-8744-4086-b211-f00659ca4a09"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-06-03 16:17:12.642 +08:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ApiNCorePractice.Domain.UserViewModel] GetAll()" on controller "ApiNCorePractice.Api.Controllers.UserController" ("ApiNCorePractice.Api").
+===> 2020-06-03 16:17:12.647 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-06-03 16:17:12.655 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 16:17:12.660 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:17:12.665 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 16:17:12.671 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:17:12.677 +08:00 [Information] Authorization failed.
+===> 2020-06-03 16:17:12.681 +08:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-06-03 16:17:12.693 +08:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-06-03 16:17:12.699 +08:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-06-03 16:17:12.702 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.UserController.GetAll (ApiNCorePractice.Api)" in 26.4688ms
+===> 2020-06-03 16:17:12.707 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" completed keep alive response.
+===> 2020-06-03 16:17:12.709 +08:00 [Information] Request finished in 79.9977ms 401 
+===> 2020-06-03 16:17:53.831 +08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/User  
+===> 2020-06-03 16:17:53.835 +08:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-06-03 16:17:53.840 +08:00 [Debug] Request successfully matched the route with name 'null' and template '"api/User"'
+===> 2020-06-03 16:17:53.847 +08:00 [Debug] Action '"ApiNCorePractice.Api.Controllers.UserController.Create (ApiNCorePractice.Api)"' with id '"8b53e182-8744-4086-b211-f00659ca4a09"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-06-03 16:17:53.854 +08:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ApiNCorePractice.Domain.UserViewModel] GetAll()" on controller "ApiNCorePractice.Api.Controllers.UserController" ("ApiNCorePractice.Api").
+===> 2020-06-03 16:17:53.858 +08:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-06-03 16:17:53.860 +08:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-06-03 16:17:53.863 +08:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:17:53.867 +08:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-06-03 16:17:53.870 +08:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-06-03 16:17:53.876 +08:00 [Information] Authorization failed.
+===> 2020-06-03 16:17:53.877 +08:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-06-03 16:17:53.880 +08:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-06-03 16:17:53.885 +08:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-06-03 16:17:53.888 +08:00 [Information] Executed action "ApiNCorePractice.Api.Controllers.UserController.GetAll (ApiNCorePractice.Api)" in 11.9654ms
+===> 2020-06-03 16:17:53.890 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" completed keep alive response.
+===> 2020-06-03 16:17:53.896 +08:00 [Information] Request finished in 65.1253ms 401 
+===> 2020-06-03 16:23:15.498 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" received FIN.
+===> 2020-06-03 16:23:15.501 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" disconnecting.
+===> 2020-06-03 16:23:15.510 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" sending FIN because: ""The client closed the connection.""
+===> 2020-06-03 16:23:15.514 +08:00 [Debug] Connection id ""0HM07IIU9LMR8"" stopped.

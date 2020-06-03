@@ -1,0 +1,24 @@
+[
+    {
+        "ClientId": "clientAPI1",
+        "AllowedGrantTypes": [ "client_credentials" ],
+        "ClientSecrets": [
+            {
+                "Value": "ApiNCorePractice-secret",
+                "Description": "ApiNCorePractice secret"
+            }
+        ],
+        "AllowedScopes": [ "ApiNCorePractice" ]
+    },
+    {
+        "ClientId": "ApiNCorePracticeClient",
+        "AllowedGrantTypes": [ "password" ],
+        "ClientSecrets": [
+            {
+                "Value": "ApiNCorePractice-secret",
+                "Description": "ApiNCorePractice secret"
+            }
+        ],
+        "AllowedScopes": [ "ApiNCorePractice" ]
+    }
+]

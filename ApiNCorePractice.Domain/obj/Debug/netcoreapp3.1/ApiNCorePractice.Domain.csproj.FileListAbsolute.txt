@@ -1,0 +1,12 @@
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\bin\Debug\netcoreapp3.1\ApiNCorePractice.Domain.deps.json
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\bin\Debug\netcoreapp3.1\ApiNCorePractice.Domain.dll
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\bin\Debug\netcoreapp3.1\ApiNCorePractice.Domain.pdb
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\bin\Debug\netcoreapp3.1\ApiNCorePractice.Entity.dll
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\bin\Debug\netcoreapp3.1\ApiNCorePractice.Entity.pdb
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\obj\Debug\netcoreapp3.1\ApiNCorePractice.Domain.csprojAssemblyReference.cache
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\obj\Debug\netcoreapp3.1\ApiNCorePractice.Domain.AssemblyInfoInputs.cache
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\obj\Debug\netcoreapp3.1\ApiNCorePractice.Domain.AssemblyInfo.cs
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\obj\Debug\netcoreapp3.1\ApiNCorePractice.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\obj\Debug\netcoreapp3.1\ApiNCorePractice.Domain.csproj.CopyComplete
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\obj\Debug\netcoreapp3.1\ApiNCorePractice.Domain.dll
+C:\Users\fpt\source\repos\ApiNCorePractice\ApiNCorePractice.Domain\obj\Debug\netcoreapp3.1\ApiNCorePractice.Domain.pdb
